@@ -1,0 +1,12 @@
+﻿Architecture: arm
+Description: IPK Builder Demo package
+Filename: crio-temp-logger_1.2.3.24_arm.ipk
+MD5Sum: 0864fd5f422ff1156e0d413ece1e4aa6
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+Package: crio-temp-logger
+Priority: optional
+Section: misc
+Size: 228100
+Source: crio-temp-logger
+Version: 1.2.3.24
+
