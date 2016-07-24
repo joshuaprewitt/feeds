@@ -1,0 +1,67 @@
+Package: blinky
+Architecture: all
+Description: This applications blinks the user LED
+Filename: blinky_1.0.0-r0.0_all.ipk
+Homepage: unknown
+MD5Sum: 0b0a26c9ae4c19184665a8c947e95dd9
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+OE: blinky
+Priority: optional
+Section: console/utils
+Size: 3146
+Source: ni.com
+Version: 1.0.0-r0.0
+XB-DisplayName: Blinky
+XB-UserVisible: yes
+
+Package: package-a
+Architecture: all
+Depends: 
+Description: Contains A
+Filename: package-a_1.0.0-r0.0_all.ipk
+Homepage: unknown
+License: 
+MD5Sum: 6822ab52654d7f9f9dc18ca58188380e
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+Priority: optional
+Section: console/utils
+Size: 704
+Source: N/A
+Version: 1.0.0-r0.0
+XB-DisplayName: Package A
+XB-UserVisible: no
+
+Package: package-b
+Architecture: all
+Depends: 
+Description: Contains B
+Filename: package-b_1.0.0-r0.0_all.ipk
+Homepage: unknown
+License: 
+MD5Sum: 4f5f344a1f0ced4d712adf9ac85254a1
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+Priority: optional
+Section: console/utils
+Size: 702
+Source: N/A
+Version: 1.0.0-r0.0
+XB-DisplayName: Package B
+XB-UserVisible: no
+
+Package: virtual-package
+Architecture: all
+Depends: package-a, package-b, blinky
+Description: This virtual package depends on Blinky, Package A and Package B
+Filename: virtual-package_1.0.0-r0.0_all.ipk
+Homepage: unknown
+License: 
+MD5Sum: dfb67a2a3f482469e9102f4c99b3cb04
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+Priority: optional
+Section: console/utils
+Size: 680
+Source: N/A
+Version: 1.0.0-r0.0
+XB-DisplayName: Virtual Package
+XB-UserVisible: no
+
